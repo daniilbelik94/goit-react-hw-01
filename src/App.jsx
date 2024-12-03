@@ -1,5 +1,7 @@
-import Profile from './components/Profile/Profile';
+import Profile from "./components/Profile/Profile";
+
 import userData from "./userData.json";
+
 
 function App() {
   return (
@@ -15,4 +17,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
