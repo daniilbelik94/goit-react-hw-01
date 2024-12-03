@@ -1,4 +1,4 @@
-.container {
+.wrapper {
   max-width: 520px;
   padding: 20px 0 0 0;
   border: 3px solid black;
@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.container-wrapper {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,33 +22,33 @@
   margin-bottom: 40px;
 }
 
-.profile_name {
+.name {
   font-size: 48px;
   font-weight: 700;
   color: #2a2a2a;
   margin-bottom: 20px;
 }
 
-.profile-tag {
+.tag {
   font-size: 24px;
   font-weight: 400;
   color: darkgrey;
   margin-bottom: 10px;
 }
-.profile-location {
+.location {
   font-size: 24px;
   font-weight: 400;
   color: darkgrey;
   margin-bottom: 20px;
 }
 
-.profile-list {
+.stats {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.profile-list_item {
+.item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,17 +61,17 @@
   background-color: #d3d3d3;
   gap: 5px;
 }
-.profile-list_item:last-child {
+.item:last-child {
   border-right: none;
 }
 
-.profile-item_title {
+.label {
   color: #000;
   font-size: 24px;
   font-weight: 400;
 }
 
-.profile-list_stats {
+.quantity {
   color: #000;
   font-size: 24px;
   font-weight: 700;

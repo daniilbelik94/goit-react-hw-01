@@ -1,0 +1,28 @@
+.table{
+  border: 2px solid #000000;
+  margin: 0 auto;
+  width: 720px;
+  border-collapse: collapse;
+}
+.table_thead {
+  border: 2px solid #000000;
+  background-color: #393838;
+  color: white;
+}
+.table_th {
+  font-size: 18px;
+  font-weight: 600;
+}
+.table_th,
+.table_td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.table_tr:nth-child(even) {
+  background-color: #c1bfbf;
+}
