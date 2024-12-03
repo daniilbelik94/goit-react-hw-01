@@ -9,10 +9,7 @@
   background-color: #393838;
   color: white;
 }
-.table_th {
-  font-size: 18px;
-  font-weight: 600;
-}
+
 .table_th,
 .table_td {
   border: 1px solid black;
@@ -21,6 +18,10 @@
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 400;
+}
+.table_th {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .table_tr:nth-child(even) {
